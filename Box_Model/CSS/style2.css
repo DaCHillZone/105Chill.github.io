@@ -1,0 +1,28 @@
+#content {
+    border:black solid 8px; 
+    background-color:lightblue;
+    width: 1000px;
+    padding: 30px;
+    margin: 30px
+
+}
+.quoteContent {
+margin: 5px;
+margin-left: 20px;
+}
+.quoteCitation {
+    margin: 2px;
+    margin-left: 50px;
+}
+#Main {
+    margin:25px;
+}
+#Body {
+    border:grey 1000; background-color:darkgrey;
+    
+
+}
+#Footer {
+    margin:1px;
+    margin-left: 35px;
+}
