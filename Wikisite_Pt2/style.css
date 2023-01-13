@@ -1,12 +1,18 @@
 #Contents {
     Border:black solid 2px;
     background-color: rgb(117, 117, 117); 
-
-
-    
+    padding: 25px;
+    margin-right:700px;
+    height:auto;
+    width:150px;
 }
 
-
+#picture1 {
+    width:600px;
+    height:auto;
+    float:right;
+    margin:20px;
+}
 
 #White1 {
     color: white;
@@ -15,6 +21,43 @@
 
 #Content {
     color:white;  
-    
+    font-style:italic;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:xx-large;
 
 }
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration-color: aliceblue;
+}
+
+
+#picture2 {
+    float:left;
+    margin: 7px;
+    
+}
+
+#picture3 {
+    width:900px;
+}
+
+#website {
+    border: black solid 3px;
+    margin:15px;
+    margin-right:3px;
+    margin-left:3px;
+    padding:20px;
+    color:rgb(96, 96, 96);
+}
+
