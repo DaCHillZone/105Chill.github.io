@@ -1,0 +1,66 @@
+.contant {
+    border: 2px solid salmon;
+    padding: 20px;
+    margin: 25px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.3);
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 0;
+
+}
+
+hr {
+    border-color: black;
+}
+
+main h3 {
+    color:darkslategrey;
+}
+
+main {
+    background-color: aliceblue;
+    padding: 40px;
+}
+figure {
+    float: left;
+    margin-bottom: 100px;
+    width: 20%;
+}
+
+figure img {
+    width: 100%;
+}
+
+header {
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    padding:30px;
+}
+
+h1 {
+    margin:0;
+}
+
+nav {
+    background-color: salmon;
+    padding:40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+nav li {
+    display: inline;
+    margin:10px;
+}
+nav a {
+    color:white;
+}
+footer {
+    background-color: salmon;
+}
