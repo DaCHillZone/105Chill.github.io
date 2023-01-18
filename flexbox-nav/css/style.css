@@ -2,9 +2,36 @@ ul {
     display:flex;
     list-style-type: none;
     gap: 20px;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    
 }
 
 a {
     text-decoration: none;
+    color:black
+}
+
+a:hover {
+    text-decoration: underline;
+    color:darkblue;
+}
+
+#nav1 {
+    background-color: lightblue;
+    gap:20px;
+    padding:10px;
+    border: 2px solid;
+    border-color:black;
+    height:50px;
+}
+
+body {
+    margin:0;
+    background-color: aliceblue;
+}
+
+#home {
+    margin-right: auto;
 }
