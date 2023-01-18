@@ -2,10 +2,15 @@
     display: flex;
     /* flex-wrap: wrap-reverse; */
     justify-content: center;
+    background-color: black;
+    height: 200px;
+    align-items: center;
 }
 
 .item {
     background-color: lightblue;
     padding: 10px;
     margin: 10px;
+    height: 50px; 
+    width: 50px;
 }
