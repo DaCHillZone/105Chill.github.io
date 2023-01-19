@@ -16,6 +16,7 @@ a {
 a:hover {
     text-decoration: underline;
     color:darkblue;
+    border-radius: 50%;
 }
 
 #nav1 {
@@ -34,4 +35,16 @@ body {
 
 #home {
     margin-right: auto;
+}
+
+/* media quirries */
+
+/* tablet */
+@media  (max-width: 768px) {
+
+body {
+    background-color: white;
+}
+
+
 }
