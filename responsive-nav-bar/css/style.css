@@ -1,0 +1,50 @@
+
+#nav1 {
+    background-color: blanchedalmond;
+    color:black;
+}
+
+
+.dropdown-menu {
+    position:absolute;
+    z-index:99;
+    display:none;
+    background-color: blanchedalmond;
+    
+    
+}
+
+.dropdown:hover .dropdown-menu {
+        display:block;
+        background-color: bisque;
+        color:bisque;
+        border:2px bold;
+        border-color: black;
+}
+
+
+
+body {
+    margin:0;
+    background-color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+#nav1 a {
+    text-decoration: none;
+    color:black;
+    
+}
+
+#nav1 a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+    
+}
