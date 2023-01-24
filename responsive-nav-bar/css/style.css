@@ -47,4 +47,18 @@ a {
 li {
     list-style-type: none;
     
+
+}
+
+ul {
+   display: flex;
+   padding:15px;
+   gap:60px;
+   justify-content: center;
+}
+
+#title {
+    display:flex;
+    
+    
 }
