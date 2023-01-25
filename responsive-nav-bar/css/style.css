@@ -52,7 +52,7 @@ li {
     
 
 }
-
+  
 ul {
    display: flex;
    padding:15px;
@@ -65,4 +65,34 @@ ul {
     display:flex;
     
     
+}
+
+#shop-title {
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#body-title-1 {
+    diplay:flex;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 768px) {
+
+    body {
+        background-color: white;
+    }
 }
