@@ -15,7 +15,7 @@ nav {
 li {
     padding:10px;
 }
-
+ 
  a {
     text-decoration: none;
  }
@@ -56,7 +56,35 @@ nav {
 #gallery3 {
     columns: 3 auto;
     column-gap: 24px;
+    width: 100%;
+    height:auto;
+}
+
+#gallery3 {
+    margin-bottom: 24px;
 }
 
 /* Media Quarry */
+@media screen and (max-width: 768px) {
+    #siteGrid {
+        grid-template-columns: 1fr;
+        grid-template-areas: "navArea"
+        "galleryArea"
+        ;
+    }
+    #gallery1, #gallery2 {
+        grid-template-columns: 1fr;
+    }
+
+    #gallery2 {
+        width:100%;
+        height:auto;
+    }
+
+    #gallery3 {
+        columns: 2 auto;
+    }
+
+  
+}
 
