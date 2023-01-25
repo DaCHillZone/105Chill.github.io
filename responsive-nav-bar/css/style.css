@@ -30,6 +30,7 @@
 body {
     margin:0;
     background-color: aliceblue;
+    
 }
 
 a {
@@ -74,12 +75,18 @@ ul {
 }
 
 #body-title-1 {
-    diplay:flex;
+    display:flex;
     text-align: center;
 }
 
 
-
+#home-img {
+    object-fit: cover;
+    width:500px;
+    height:auto;
+    float:left;
+    padding:8px;
+}
 
 
 
