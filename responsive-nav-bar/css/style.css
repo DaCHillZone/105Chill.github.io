@@ -2,6 +2,9 @@
 #nav1 {
     background-color: blanchedalmond;
     color:black;
+    border-color: black;
+    padding:1px;
+    
 }
 
 
@@ -37,7 +40,7 @@ a {
 #nav1 a {
     text-decoration: none;
     color:black;
-    
+
 }
 
 #nav1 a:hover {
@@ -54,6 +57,7 @@ ul {
    display: flex;
    padding:15px;
    gap:60px;
+   font-size: x-large ;
    justify-content: center;
 }
 
