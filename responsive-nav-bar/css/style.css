@@ -82,14 +82,18 @@ ul {
 
 #home-img {
     object-fit: cover;
-    width:500px;
+    width:200px;
     height:auto;
     float:left;
     padding:8px;
 }
 
 
-
+#main-content {
+    padding-left: 10px;
+    padding-right:30px;
+    padding-bottom: 25px;
+}
 
 
 
@@ -101,5 +105,9 @@ ul {
 
     body {
         background-color: white;
+
+    }
+    ul {
+        flex-direction: column;
     }
 }
