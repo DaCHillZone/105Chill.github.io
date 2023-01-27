@@ -1,0 +1,38 @@
+body {
+    background-color: aliceblue;
+    margin:50px;
+    padding:30px;
+}
+
+#main-page {
+    background-color: white;
+    margin:20px;
+    border: 1px solid black;
+    padding:10px;
+}
+
+
+#facebook {
+    text-align: center;
+    color:blue;
+    
+}
+
+#sign-up {
+    text-align: center;
+}
+
+#information {
+    text-align: center;
+}
+
+#information2 {
+    text-align: center;
+}
+
+
+#sign-up-02 {
+    text-align: center;
+    
+}
+
