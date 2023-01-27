@@ -2,7 +2,7 @@ table, tr, th, td {
     border: 1px solid blue;
     padding: 10px;
 }
-
+ 
 thead {
     background-color: lightskyblue;
     color: white;

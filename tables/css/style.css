@@ -1,0 +1,20 @@
+
+table, tr, th, td {
+    border: 2px solid darkblue;
+    padding: 10px;
+}
+ 
+thead {
+    background-color: lightskyblue;
+    color: white;
+}
+
+td:hover {
+    background-color: lightgray;
+}
+
+
+
+
+
+
