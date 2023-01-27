@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color:black;
     margin:50px;
     padding:30px;
 }
@@ -18,7 +18,7 @@ body {
 
 #facebook {
     text-align: center;
-    color:blue;
+    color:darkblue;
     text-shadow: solid black 3px 3px 3px 0.2px;
     font-size: xxx-large;
     font-family:'Courier New', Courier, monospace;
@@ -44,7 +44,9 @@ body {
     
 }
 #sign-up2 {
-    font-size: xx-large;
+    font-size: xxx-large;
+    color: white;
+    background-color:chartreuse;
 }
 
 #extra-background {
@@ -54,4 +56,13 @@ body {
     align-content: center;
     max-width: 600px;
 
+}
+
+
+form {
+   flex: ;
+}
+
+#all {
+    padding-left: 38%;
 }
