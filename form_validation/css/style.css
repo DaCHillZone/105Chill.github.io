@@ -1,20 +1,28 @@
 body {
-    background-color: aliceblue;
+    background-color: grey;
     margin:50px;
     padding:30px;
 }
 
 #main-page {
+    -ms-flex-align: center;
+    
     background-color: white;
     margin:20px;
     border: 1px solid black;
     padding:10px;
+    
+    max-width: 600px;
 }
 
 
 #facebook {
     text-align: center;
     color:blue;
+    text-shadow: solid black 3px 3px 3px 0.2px;
+    font-size: xxx-large;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
     
 }
 
@@ -35,4 +43,15 @@ body {
     text-align: center;
     
 }
+#sign-up2 {
+    font-size: xx-large;
+}
 
+#extra-background {
+    background-color: aliceblue;
+    padding: 10px;
+    margin:5px;
+    align-content: center;
+    max-width: 600px;
+
+}
