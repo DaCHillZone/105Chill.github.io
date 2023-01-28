@@ -15,7 +15,32 @@ body {
     background-color: aliceblue;
     padding:5px;
 }
-
+ 
 form {
     max-width: 900px;
+    padding: 8px;
+}
+
+#title {
+    text-align: center;
+}
+
+#title-info {
+    text-align: center;
+}
+
+/* #name {
+
+}
+
+#email {
+
+} */
+
+imput[type=text]:invalid {
+    border: red solid 2px
+}
+
+imput[type=text]:valid {
+    border: green solid 2px
 }
