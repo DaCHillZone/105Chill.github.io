@@ -3,10 +3,10 @@ body {
     background-color: whitesmoke;
 }
  
-/* #all {
+#all {
     display:flex;
     justify-content: center;
-} */
+}
 
 #main {
     border:1px solid black;
