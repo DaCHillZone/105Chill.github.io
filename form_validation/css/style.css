@@ -10,7 +10,7 @@ body {
     background-color: white;
     margin:20px;
     border: 1px solid black;
-    padding:10px;
+    padding:100px;
     
     max-width: 600px;
 }
@@ -51,7 +51,7 @@ body {
 
 #extra-background {
     background-color: aliceblue;
-    padding: 10px;
+    padding: 100px;
     margin:5px;
     align-content: center;
     max-width: 600px;
@@ -59,10 +59,10 @@ body {
 }
 
 
-form {
-   flex: ;
-}
+
 
 #all {
-    padding-left: 38%;
+    display:flex;
+    justify-content: center;
+    /* padding-left: 38%; */
 }
