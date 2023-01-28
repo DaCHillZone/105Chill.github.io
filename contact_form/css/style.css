@@ -14,8 +14,15 @@ body {
     border:1px solid black;
     background-color: aliceblue;
     padding:5px;
+    text-align: center;
 }
  
+#send {
+    font-size: xx-large;
+    color:aliceblue;
+}
+
+
 form {
     max-width: 900px;
     padding: 8px;
@@ -37,10 +44,10 @@ form {
 
 } */
 
-imput[type=text]:invalid {
-    border: red solid 2px
+input[type=text]:invalid {
+    border: red solid 2px;
 }
 
-imput[type=text]:valid {
-    border: green solid 2px
+input[type=text]:valid {
+    border: green solid 2px;
 }
