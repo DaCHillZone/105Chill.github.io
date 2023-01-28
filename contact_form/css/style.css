@@ -1,6 +1,7 @@
 
 body {
     background-color: whitesmoke;
+    max-width: 900px ;
 }
  
 #all {
