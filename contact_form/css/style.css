@@ -30,10 +30,14 @@ form {
 
 #title {
     text-align: center;
+    font-weight:bolder;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #title-info {
     text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 200;
 }
 
 /* #name {
@@ -45,9 +49,14 @@ form {
 } */
 
 input[type=text]:invalid {
-    border: red solid 2px;
+    border: rgb(255, 27, 27) solid 2px;
 }
 
 input[type=text]:valid {
-    border: green solid 2px;
+    border: rgb(2, 208, 2) solid 2px;
+}
+
+#select-menu {
+    text-align: center;
+    padding: 1px;
 }
