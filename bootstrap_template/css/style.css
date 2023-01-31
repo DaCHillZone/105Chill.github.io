@@ -1,0 +1,220 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*~~~~~~ MAIN BRAND STYLE ~~~~~~~~*/
+
+/* typography: */
+body, main, footer, nav, header {
+  font-family: "Open Sans";
+}
+a {
+  color:#192e55;
+}
+.btn {
+  background-color: #f8feff; 
+  border:2px solid #2e4c83;
+  border-radius: 0px;
+}
+
+/* Header & Navbar: */
+
+body {
+  margin:0;
+  color:#2e4c83;
+  border-color: #2e4c83;
+}
+
+header {
+  border-bottom: 2px solid #2e4c83;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:50px;
+  background-color:#f8feff;
+  color:#2e4c83;
+}
+.header-top{
+  width:15%;
+}
+nav {
+  border-bottom: 2px solid #2e4c83;
+  background-color:#f8feff;
+  position:sticky;
+  top:0px;
+  box-shadow: 0px 3px 3px 0px rgb(0,0,0,0.3);
+  display:flex;
+  justify-content: space-between;
+  z-index: 99;
+  font-weight: 500;
+}
+
+nav ul {
+  display:flex;
+  padding-left:0;
+  margin:0px;
+}
+
+nav li {
+  list-style-type: none;
+}
+nav a {
+  color:#192e55;
+  text-decoration: none;
+  padding:5px 20px;
+  padding-left:2.5px;
+  display:inline-block;
+}
+nav a::before {
+  content:"|";
+  padding-right:5px;
+}
+nav a:hover {
+  background-color: #192e55;
+  color:#f8feff;
+}
+.nav-contact {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  height:auto;
+  width:33%;
+}
+.nav-contact:hover {
+  color:#192e55;
+}
+.nav-contact ion-icon{
+  margin-right:10px;
+}
+.nav-contact p {
+  margin:0;
+  margin-right: 10px;
+}
+
+#site_logo {
+  width:100%;
+}
+.site_title {
+  font-family: "Bebas Neue";
+  font-size: 4em;
+  font-weight: 900;
+  margin-bottom:0;
+}
+.site_quote {
+  font-size: 1em;
+  text-align: right;
+  font-style: italic;
+  font-weight: 600;
+  margin:0px;
+}
+#site_logo:hover,.site_title:hover,.site_quote:hover {
+  color:#192e55;
+  cursor:pointer;
+}
+
+
+/* MAIN Content */
+main {
+  padding: 25px 15%;
+}
+
+/* contents: */
+
+.content {
+  background-color: #f8feff;
+  border:2px solid #2e4c83;
+  padding:15px;
+  color:#2e4c83;
+  box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
+  margin:50px 0px;
+}
+.content-header {
+  font-size: 42pt;
+  font-family: "Bebas Neue";
+  margin:0;
+  text-align: center;
+  padding:25px;
+  font-style: italic;
+  font-weight: bold;
+}
+.content-subhead {
+  border-bottom: 1px solid #2e4c83;
+  margin:0;
+  text-align: center;
+  margin-bottom:25px;
+  padding-bottom:25px;
+  font-family: "Bebas Neue", "Times New Roman", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.content-content {
+  padding:20px;
+}
+
+
+/* Footer ~~~~~~~ */
+.footer-hat {
+  height:30px;
+  background-color: #f8feff;
+  border-top:2px solid #2e4c83;
+}
+footer {
+  background-color: #f8feff;
+  padding:25px;
+  border-top:2px dashed #2e4c83;
+  box-sizing: border-box;
+  display:flex;
+}
+footer h4, footer h5, footer h6 {
+  font-family: "Bebas Neue";
+  margin:0;
+
+}
+.footer-left {
+  flex: 1;
+  margin-bottom:50px;
+}
+.footer-right {
+  flex:3;
+  margin-left:25px;
+}
+footer h4 {
+  font-size: 2em;
+}
+.footer-right h6 {
+  font-size: 1.5em;
+}
+.footer-right p {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.footer-feet {
+  background-color: #f8feff;
+  height:40px;
+  border-top: 2px dashed #2e4c83;
+
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px;
+  font-size: 8pt;
+}
+
+.footer-feet p {
+  margin:0;
+}
+
+/* Special typography */
+
+.dropcap {
+  float:left;
+  font-size:42pt;
+  margin-top: -5px;
+  line-height: 0.65;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+}
