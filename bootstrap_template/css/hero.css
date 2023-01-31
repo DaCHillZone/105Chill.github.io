@@ -10,11 +10,20 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
  }
 
 .hero-text h2 {
     margin-top:0;
-    font-size: 5em;
+    font-size: 4em;
+    text-shadow: 10px 4px 5px lightblue;
+}
+
+.hero-text h4 {
+    font-size: 2em;
+    text-shadow: 8px 3px 3px rgb(203, 228, 233);
 }
 
 .hero-text {
@@ -22,4 +31,14 @@
     font-family:'Bebas Neue', cursive; ;
     font-weight: bold;
     font-style: italic;
+    color:black
+}
+
+.site-hero .hero-text {
+    background-color: #f8feff;
+    padding-right:900px;
+    padding-left: 900px;
+    padding-top: 30px;
+    margin: 10px;
+    box-shadow: inset ß0px 8px 15px 3px rgb(121, 121, 121);
 }
