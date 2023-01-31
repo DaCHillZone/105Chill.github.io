@@ -1,1 +1,25 @@
  
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+ .site-hero {
+    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.hero-text h2 {
+    margin-top:0;
+    font-size: 5em;
+}
+
+.hero-text {
+    text-align: center;
+    font-family:'Bebas Neue', cursive; ;
+    font-weight: bold;
+    font-style: italic;
+}
