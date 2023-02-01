@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
-
+ 
  .site-hero {
     background-image: url("../assets/branding/wood_bkgrnd.jpg");
     height: 80vh;
@@ -41,4 +41,12 @@
     padding-top: 30px;
     margin: 10px;
     box-shadow: inset 1px 5px 85px 3px rgb(171, 171, 171);
+}
+
+
+
+/* Image Grid Here */
+
+.container-1 {
+    margin: auto;
 }
