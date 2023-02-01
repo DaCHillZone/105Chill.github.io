@@ -1,4 +1,6 @@
 .col {
     background-color: aqua;
-    border: black 2px 2px 2px;
+    border: 2px;
+    border-width: 8px;
+    border-color: black;
 }
