@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
- 
+  
  .site-hero {
     background-image: url("../assets/branding/wood_bkgrnd.jpg");
     height: 80vh;
@@ -31,7 +31,7 @@
     font-family:'Bebas Neue', cursive; ;
     font-weight: bold;
     font-style: italic;
-    color:black
+    color:black;
 }
 
 .site-hero .hero-text {
@@ -67,11 +67,11 @@
 }
 
 .col {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     justify-content:center;
     align-items: center;
     /* flex-direction:; */
     width:260px;
     margin:1px;
-    columns:2;
+    columns:3;
 }
