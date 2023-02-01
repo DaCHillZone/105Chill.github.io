@@ -14,7 +14,7 @@
     background-position: center;
     background-attachment: fixed;
  }
-
+ 
 .hero-text h2 {
     margin-top:0;
     font-size: 4em;
@@ -47,6 +47,31 @@
 
 /* Image Grid Here */
 
-.container-1 {
-    margin: auto;
+.container1 {
+    display: flex;
+}
+
+#img-1 {
+    width:200px;
+    
+}
+
+#img-2 {
+    width:200px;
+    
+}
+
+#img-3 {
+    width:200px;
+    
+}
+
+.col {
+    background-color: aquamarine;
+    justify-content:center;
+    align-items: center;
+    /* flex-direction:; */
+    width:260px;
+    margin:1px;
+    columns:2;
 }
