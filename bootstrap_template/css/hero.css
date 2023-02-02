@@ -53,7 +53,7 @@
 
 #img-1 {
     width:200px;
-    
+    background-color: aliceblue;
 }
 
 #img-2 {
@@ -97,7 +97,7 @@
 }
 
 .col {
-    /* background-color: aquamarine; */
+    background-color:black;
     justify-content:center;
     align-items: center;
     /* flex-direction:; */
