@@ -1,9 +1,11 @@
  
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
 
 
-  
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Montserrat&display=swap');
+
+
  .site-hero {
     background-image: url("../assets/branding/wood_bkgrnd.jpg");
     height: 80vh;
