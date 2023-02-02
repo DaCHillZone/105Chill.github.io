@@ -105,3 +105,11 @@
     margin:1px;
     columns:3;
 }
+
+/* Carousel */
+
+.carousel-item img {
+    object-fit: contain;
+    max-height: 900px;
+    background-color: black;
+}
