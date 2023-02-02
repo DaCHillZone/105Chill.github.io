@@ -1,0 +1,115 @@
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+  
+ .site-hero {
+    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ }
+ 
+.hero-text h2 {
+    margin-top:0;
+    font-size: 4em;
+    text-shadow: 10px 4px 5px lightblue;
+}
+
+.hero-text h4 {
+    font-size: 2em;
+    text-shadow: 8px 3px 3px rgb(203, 228, 233);
+} 
+
+.hero-text {
+    text-align: center;
+    font-family:'Bebas Neue', cursive; ;
+    font-weight: bold;
+    font-style: italic;
+    color:black;
+}
+
+.site-hero .hero-text {
+    background-color: #f8feff;
+    padding-right:900px;
+    padding-left: 900px;
+    padding-top: 30px;
+    margin: 10px;
+    box-shadow: inset 1px 5px 85px 3px rgb(171, 171, 171);
+}
+
+
+
+/* Image Grid Here */
+
+.container {
+    display: flex;
+}
+
+#img-1 {
+    width:200px;
+    background-color: aliceblue;
+}
+
+#img-2 {
+    width:200px;
+    
+}
+
+#img-3 {
+    width:200px;
+    
+}
+
+#img-4 {
+    width:200px;
+    
+}
+
+#img-5 {
+    width:200px;
+    
+}
+
+#img-6 {
+    width:200px;
+    
+}
+
+#img-7 {
+    width:200px;
+    
+}
+
+#img-8 {
+    width:200px;
+    
+}
+
+#img-9 {
+    width:200px;
+    
+}
+
+.col {
+    background-color:black;
+    justify-content:center;
+    align-items: center;
+    /* flex-direction:; */
+    width:260px;
+    margin:1px;
+    columns:3;
+}
+
+/* Carousel */
+
+.carousel-item img {
+    object-fit: contain;
+    max-height: 900px;
+    background-color: darkgray;
+}
