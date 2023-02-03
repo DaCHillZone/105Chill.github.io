@@ -134,7 +134,7 @@ main {
 /* contents: */
 
 .content {
-  background-color: #ffcfa8;
+  background-color: #ffe4cd;
   border:2px solid #000000;
   padding:15px;
   color:#000000;
@@ -168,11 +168,11 @@ main {
 /* Footer ~~~~~~~ */
 .footer-hat {
   height:30px;
-  background-color: #ffffff;
-  border-top:2px solid #2e4c83;
+  background-color: #000000;
+  border-top:2px solid #ffcc98;
 }
 footer {
-  background-color: #ffcfa8;
+  background-color: #ffe4cd;
   padding:25px;
   border-top:2px dashed #2e4c83;
   box-sizing: border-box;
@@ -203,10 +203,10 @@ footer h4 {
 }
 
 .footer-feet {
-  background-color: #fde8c5;
+  background-color: #000000;
   height:40px;
   border-top: 2px dashed #000000;
-
+  color: white ;
   display:flex;
   align-items: center;
   justify-content: space-between;
