@@ -7,7 +7,7 @@
 
 
  .site-hero {
-    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    background-image: url("../assets/images/image2/rufus-o-dea-p3Loavrv6z8-unsplash.jpg");
     height: 80vh;
     display:flex;
     justify-content: center;
@@ -20,12 +20,12 @@
 .hero-text h2 {
     margin-top:0;
     font-size: 4em;
-    text-shadow: 10px 4px 5px lightblue;
+    text-shadow: 10px 4px 5px rgb(229, 199, 182);
 }
 
 .hero-text h4 { 
     font-size: 2em;
-    text-shadow: 8px 3px 3px rgb(203, 228, 233);
+    text-shadow: 8px 3px 3px rgb(222, 198, 174);
 } 
 
 .hero-text {
@@ -33,16 +33,16 @@
     font-family:'Bebas Neue', cursive; ;
     font-weight: bold;
     font-style: italic;
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 .site-hero .hero-text {
-    background-color: #f8feff;
+    background-color: #ffcfa8;
     padding-right:900px;
     padding-left: 900px;
     padding-top: 30px;
     margin: 10px;
-    box-shadow: inset 1px 5px 85px 3px rgb(171, 171, 171);
+    box-shadow: inset 1px 5px 85px 3px rgb(253, 223, 190);
 }
 
 
@@ -55,7 +55,7 @@
 
 #img-1 {
     width:200px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 #img-2 {
@@ -113,7 +113,7 @@
 .carousel-item img {
     object-fit: contain;
     max-height: 900px;
-    background-color: darkgray;
+    background-color: rgb(0, 0, 0);
 }
 
 /* body {
