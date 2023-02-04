@@ -66,9 +66,7 @@
 
 /* Image Grid Here */
 
-.container {
-    display: flex;
-}
+
 
 
 
@@ -76,9 +74,9 @@
 .img-container {
     height:30vh;
     text-align: center;
-    padding:10px;
-    margin:40px;
+    
 }
+
 
 img {
     height:100%;
