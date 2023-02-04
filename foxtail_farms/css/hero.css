@@ -180,3 +180,37 @@
 /* body {
     color: #e2b291;
 } */
+
+/* content */
+.content-header {
+    font-family: 'Lobster', cursive; ;
+}
+
+.content-subhead {
+    font-family: 'Lobster', cursive; ;
+}
+
+.content-content {
+    font-family: 'Montserrat', sans-serif; ;
+}
+
+/* footer */
+.footer-left h4 {
+    font-family: 'Lobster', cursive; ;
+}
+
+.footer-left li {
+    font-family: 'Montserrat', sans-serif; ;
+}
+
+.footer-right h4 {
+    font-family: 'Lobster', cursive; ; ;
+}
+
+.footer-right h6 p {
+    font-family: 'Montserrat', sans-serif; ;
+}
+
+.footer-feet p {
+    font-family: 'Montserrat', sans-serif; ;
+}
