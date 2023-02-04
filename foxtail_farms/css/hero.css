@@ -3,7 +3,17 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Montserrat&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Montserrat&display=swap'); */
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+
 
 
  .site-hero {
@@ -20,17 +30,24 @@
 .hero-text h2 {
     margin-top:0;
     font-size: 4em;
-    text-shadow: 10px 4px 5px rgb(229, 199, 182);
+    /* text-shadow: 10px 4px 5px rgb(229, 199, 182); */
 }
+ 
+
+.hero-text h2 {
+    font-family: 'Lobster', cursive;;
+}
+
+
 
 .hero-text h4 {  
     font-size: 2em;
-    text-shadow: 8px 3px 3px rgb(222, 198, 174);
+    /* text-shadow: 8px 3px 3px rgb(222, 198, 174); */
 } 
 
 .hero-text {
     text-align: center;
-    font-family:'Bebas Neue', cursive; ;
+    font-family:'Montserrat', sans-serif;;
     font-weight: bold;
     font-style: italic;
     color:rgb(255, 255, 255);
@@ -42,7 +59,7 @@
     padding-left: 900px;
     padding-top: 30px;
     margin: 10px;
-    box-shadow: inset 1px 5px 85px 3px rgb(253, 223, 190);
+    /* box-shadow: inset 1px 5px 85px 3px rgb(253, 223, 190); */
 }
 
 

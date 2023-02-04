@@ -4,11 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+
   
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 
@@ -16,12 +20,12 @@
   
 /* typography: */
 body, main, footer, nav, header {
-  font-family: "Open Sans";
+  font-family: 'Montserrat', sans-serif;
 }
 a {
   color:#192e55;
 }
-.btn { 
+.btn {  
   background-color: #ffffff; 
   border:2px solid #2e4c83;
   border-radius: 0px;
@@ -42,7 +46,7 @@ header {
   justify-content: space-between;
   padding:50px;
   background-color:#ffcfa8;
-  box-shadow: inset 1px 5px 85px 3px rgb(253, 223, 190);
+  /* box-shadow: inset 1px 5px 85px 3px rgb(253, 223, 190); */
   color:#ffffff;
 }
 .header-top{
@@ -106,7 +110,7 @@ nav a:hover {
   width:100%;
 }
 .site_title {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lobster', cursive;
   font-size: 4em;
   font-weight: 900;
   margin-bottom:0;
@@ -138,7 +142,7 @@ main {
   border:2px solid #000000;
   padding:15px;
   color:#000000;
-  box-shadow: 2px 3px 1px 1px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 2px 3px 1px 1px rgba(0, 0, 0, 0.3); */
   margin:50px 0px;
 }
 .content-header {
