@@ -76,6 +76,8 @@
 .img-container {
     height:30vh;
     text-align: center;
+    padding:10px;
+    margin:40px;
 }
 
 img {
@@ -120,7 +122,11 @@ img {
     font-family: 'Montserrat', sans-serif; ;
 }
 
-.footer-right h4 h6 {
+.footer-right h4 {
+    font-family: 'Lobster', cursive; ; ;
+}
+
+.footer-right h6 {
     font-family: 'Lobster', cursive; ; ;
 }
 
