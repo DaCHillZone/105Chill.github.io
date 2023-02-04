@@ -87,7 +87,7 @@ img {
 /* Carousel */
 
 .carousel-item img {
-    object-fit:contain;
+    object-fit:cover;
     max-height: 600px;
     max-width: 100%;
     min-height:600px;
@@ -120,11 +120,11 @@ img {
     font-family: 'Montserrat', sans-serif; ;
 }
 
-.footer-right h4 {
+.footer-right h4 h6 {
     font-family: 'Lobster', cursive; ; ;
 }
 
-.footer-right h6 p {
+.footer-right p {
     font-family: 'Montserrat', sans-serif; ;
 }
 
