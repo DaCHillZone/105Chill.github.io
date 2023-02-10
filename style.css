@@ -1,0 +1,46 @@
+li {
+    /* display incline */
+    display: inline;
+    list-style: none;
+    
+    padding:10px; 
+    word-spacing: 90px;
+    font-size:xx-large;
+}
+
+nav {
+    background-color: gray;
+    padding:15px;
+    position: sticky;
+    text-align: center;
+}
+body {
+    margin: 0px;
+    background-color:aliceblue;
+    height:1400px;
+}
+a {
+    text-decoration: none;
+    color:aqua;
+    text-align: center;
+    
+}
+a:hover {
+    letter-spacing: 3px;
+    color:blueviolet;
+    text-shadow: 5px;
+    
+ 
+}
+ul {
+    padding-left:0px;
+}
+
+#home {
+   text-align: center;
+   
+}
+p {
+    margin:20px;
+}
+
