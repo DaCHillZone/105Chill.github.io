@@ -25,7 +25,7 @@ a {
     text-align: center;
     
 }
-a:hover {
+a:hover { 
     letter-spacing: 3px;
     color:blueviolet;
     text-shadow: 5px;
