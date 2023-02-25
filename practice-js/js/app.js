@@ -9,4 +9,6 @@ alert("HELP!!!")
 let demo = document.getElementById("demo");
 demo.style.color = "red";
 
+demo.style.alignSelf = "center";
+
 demo.innerHTML = "I Now Corupt!!! Battle Me Mortal!!!!!!!";
