@@ -9,3 +9,4 @@ alert("HELP!!!")
 let demo = document.getElementById("demo");
 demo.style.color = "red";
 
+demo.innerHTML = "I Now Corupt!!! Battle Me Mortal!!!!!!!";
