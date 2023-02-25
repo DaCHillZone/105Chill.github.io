@@ -12,4 +12,5 @@ demo.style.color = "red";
 demo.style.margin ="12px";
 demo.style.textAlign ="center";
 
-demo.innerHTML = "I Now Corupt!!! Battle Me Mortal!!!!!!!";
+
+demo.innerHTML = "I'm Now Corupt!!! Battle Me Mere ORGANIC!!!!!!!";
