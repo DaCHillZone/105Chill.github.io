@@ -9,6 +9,6 @@ alert("HELP!!!")
 let demo = document.getElementById("demo");
 demo.style.color = "red";
 
-demo.style.scrollMarginRight;
+demo.style.margin ="12px";
 
 demo.innerHTML = "I Now Corupt!!! Battle Me Mortal!!!!!!!";
