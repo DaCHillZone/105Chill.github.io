@@ -29,7 +29,7 @@ let buttonAttack = document.getElementById('attack');
 buttonAttack.onclick = pressAttackButton;
 let buttonJump = document.getElementById('jump');
 buttonJump.onclick = pressJumpButton;
-
+ 
 /*******************************************************************************
 Hook up anonymous EventHandler function for keyboard key presses
 *******************************************************************************/

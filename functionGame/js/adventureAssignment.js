@@ -31,7 +31,7 @@ function pressMoveRightButton() {
 // or presses the 's' or down arrow key
 function pressMoveDownButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+ 
 }
 
 // This function will run when the user clicks the "Move Up" button,

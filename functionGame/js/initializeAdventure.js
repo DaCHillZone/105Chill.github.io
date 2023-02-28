@@ -33,7 +33,7 @@ for (let i = 0; i < GRID_HEIGHT; i++) {
       } else {
         classes += ' gravel';
       }
-    }
+    } 
     gameGrid.innerHTML += `<div class="${classes}"></div>`;
   }
 }

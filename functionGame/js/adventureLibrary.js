@@ -25,7 +25,7 @@ function getBlock(targetX, targetY) {
   } else {
     return null;
   }
-}
+} 
 
 // Returns true if the gridBlock at (targetX, targetY) is considered "crossable"
 // by the player through normal means (i.e. walking)
