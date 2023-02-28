@@ -28,3 +28,7 @@ function square(number) {
     return number * number;
 }
 
+// save value in html
+let result = square(number);
+document.getElementById("demo").
+innerHTMLb = result;
