@@ -24,7 +24,7 @@ function pressMoveLeftButton() {
 // or presses the 'd' or right arrow key
 function pressMoveRightButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    moveRight()
+    moveRight();
 } 
 
 // This function will run when the user clicks the "Move Down" button,
