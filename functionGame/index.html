@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Function Adventure!</title>
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="gameGrid">
+      <img id="player">
+    </div>
+    <div id="controls">
+      <div class="instructions">
+        <h3>INSTRUCTIONS</h3>
+        Use ASDW to move, SHIFT+ASDW to jump, and SPACE to attack.
+        <br>
+        OR
+        <br>
+        Use the BUTTONS below
+      </div>
+      <div class="holyCross">
+        <button id="up">Move Up</button>
+        <br>
+        <button id="left">Move Left</button>
+        <button id="right">Move Right</button>
+        <br>
+        <button id="down">Move Down</button>
+      </div>
+      <div class="holyCross">
+        <button id="jumpUp">Jump Up</button>
+        <br>
+        <button id="jumpLeft">Jump Left</button>
+        <button id="jumpRight">Jump Right</button>
+        <br>
+        <button id="jumpDown">Jump Down</button>
+      </div>
+      <br>
+      <button id="attack">Attack!</button>
+      <button id="jump">Jump!</button>
+
+    </div>
+    <script src="js/adventureLibrary.js"></script>
+    <script src="js/initializeAdventure.js"></script>
+    <script src="js/adventureAssignment.js"></script>
+    <script src="js/connectButtons.js"></script>
+  </body>
+</html>
