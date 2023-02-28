@@ -29,6 +29,7 @@ function square(number) {
 }
 
 // save value in html
-let result = square(number);
-document.getElementById("demo").
-innerHTMLb = result;
+// let result = square(number);
+// document.getElementById("demo").
+// innerHTMLb = result;
+
