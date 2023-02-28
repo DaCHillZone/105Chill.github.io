@@ -16,7 +16,7 @@
 // This function will run when the user clicks the "Move Left" button,
 // or presses the 'a' or left arrow key
 function pressMoveLeftButton() {
-    // TODO: execute the correct function from adventureLibrary.js below!
+    
     moveLeft();
 }
  
@@ -30,7 +30,7 @@ function pressMoveRightButton() {
 // This function will run when the user clicks the "Move Down" button,
 // or presses the 's' or down arrow key
 function pressMoveDownButton() {
-    // TODO: execute the correct function from adventureLibrary.js below!
+   
     moveDown();
 }
 
