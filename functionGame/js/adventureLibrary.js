@@ -31,7 +31,7 @@ function getBlock(targetX, targetY) {
 // by the player through normal means (i.e. walking)
 function isBlockCrossable(targetX, targetY) {
   let block = getBlock(targetX, targetY);
-  if (block == null) {
+  if (block == null) { 
     return false;
   }
   return !block.classList.contains('rock')
