@@ -19,7 +19,7 @@ function pressMoveLeftButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
     moveLeft();
 }
-
+ 
 // This function will run when the user clicks the "Move Right" button,
 // or presses the 'd' or right arrow key
 function pressMoveRightButton() {
