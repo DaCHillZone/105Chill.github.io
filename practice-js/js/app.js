@@ -17,9 +17,14 @@
 
 
 // Write a funtion to greet me
-function greet() {
-    alert("Hello!")
+// Function Decoration
+
+// function greet() {
+//     alert("Hello!");
+// }
+
+// Square A Number
+function square(number) {
+    return number * number;
 }
-
-
 
