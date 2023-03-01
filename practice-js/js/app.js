@@ -35,7 +35,7 @@ function square(number) {
 
 
 // Increase winning number by 5
-function increaseLargerNumber(x, y) {
+function showLargerNumber(x, y) {
     // save varable for result
     let larger;
     if(x >= y){
