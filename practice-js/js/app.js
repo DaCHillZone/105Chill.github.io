@@ -34,6 +34,14 @@ function square(number) {
 // innerHTMLb = result;
 
 
+
+
+
+function plusFive(num) {
+    return num + 5;
+    // fill in the blank
+}
+
 // Increase winning number by 5
 function increaseLargerNumber(x, y) {
     // save varable for result
@@ -47,5 +55,6 @@ function increaseLargerNumber(x, y) {
     }
     return larger;
 }
+
 
 console.log(increaseLargerNumber(5, 10));
