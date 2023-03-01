@@ -7,7 +7,7 @@ li {
     word-spacing: 90px;
     font-size:xx-large;
 }
-
+ 
 nav {
     background-color: gray;
     padding:15px;
@@ -27,7 +27,7 @@ a {
 }
 a:hover { 
     letter-spacing: 3px;
-    color:blueviolet;
+    color:blue;
     text-shadow: 5px;
     
  
@@ -44,4 +44,8 @@ p {
     margin:20px;
 }
 
- 
+ .card {
+    display:flex;
+    justify-content: center;
+     
+ }
