@@ -24,9 +24,9 @@
 // }
 
 // Square A Number
-function square(number) {
-    return number * number;
-}
+// function square(number) {
+//     return number * number;
+// }
  
 // save value in html
 // let result = square(number);
@@ -53,8 +53,8 @@ function increaseLargerNumber(x, y) {
         // return larger number plus five
         
     }
-    return larger;
+    return plusFive (larger);
 }
 
 
-console.log(increaseLargerNumber(5, 10));
+console.log(increaseLargerNumber(25, 15));
