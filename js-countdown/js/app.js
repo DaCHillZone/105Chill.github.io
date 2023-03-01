@@ -1,4 +1,4 @@
-let deadline = new Date("November 28, 2022 13:00:00");
+let deadline = new Date("May 4, 2022 13:00:00");
 
 let countdown = document.getElementById("countdown");
 countdown.innerHTML = "";
