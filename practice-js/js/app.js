@@ -46,7 +46,7 @@ function plusFive(num) {
 function increaseLargerNumber(x, y) {
     // save varable for result
     let larger;
-    if(x >= y){
+    if(x >= y) {
         larger = x;
     } else {
         larger = y;
@@ -57,4 +57,4 @@ function increaseLargerNumber(x, y) {
 }
 
 
-console.log(increaseLargerNumber(25, 15));
+console.log(increaseLargerNumber(35, 34));
