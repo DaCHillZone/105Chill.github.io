@@ -27,9 +27,23 @@
 function square(number) {
     return number * number;
 }
-
+ 
 // save value in html
 // let result = square(number);
 // document.getElementById("demo").
 // innerHTMLb = result;
 
+
+// Increase winning number by 5
+function increaseLargerNumber(x, y) {
+    // save varable for result
+    let larger;
+    if(x >= y){
+        larger = x;
+    } else {
+        larger = y;
+    }
+    return larger;
+}
+
+console.log(showLargerNumber(5, 10));
