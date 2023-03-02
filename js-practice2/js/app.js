@@ -7,3 +7,5 @@
 let btn = document.getElementById("btn");
 
 btn.addEventListener("click", displayDate);
+
+// document.getElementById("demo").color.green;
