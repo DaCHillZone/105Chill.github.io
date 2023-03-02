@@ -1,0 +1,49 @@
+/*
+  Configure the gallery to be a flex container that will be used as a
+  horizontal masonry gallery, and also restrict its width to 800px (100% max),
+  in addition to centering it on the page.
+*/
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/*
+  Configure the gallery images to be sized based on height,
+  flex to fill the available space, and set object-fit to 'cover'
+  to force images to be cropped with the masonry gallery.
+  Also set them to be partially transparent, and configure them for
+  animation using CSS Transitions.
+*/
+#gallery img {
+  height: 200px;
+  margin: 12px;
+  flex: 1 0 auto;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: opacity 0.25s, transform 0.25s;
+}
+
+/*
+  On hover, make the image completely opaque, change the cursor to a pointer,
+  and increase the size of the image slightly.
+*/
+#gallery img:hover {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/*
+  When the screen becomes very narrow, reconfigure images to be sized
+  based on width rather than height.
+*/
+@media screen and (max-width: 480px) {
+  #gallery img {
+    height: auto;
+    width: 100%;
+  }
+}

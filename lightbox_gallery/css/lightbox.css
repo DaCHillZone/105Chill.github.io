@@ -1,0 +1,94 @@
+/*
+  This global setting affects ALL elements, and forces them to
+  apply heights and widths based on the element border, not the content.
+*/
+* {
+  box-sizing: border-box;
+}
+
+/*
+  This CSS stretches the lightbox container to fill the screen,
+  and centers the lightbox inside (at least when display: flex is set).
+*/
+#lightboxContainer {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  padding: 24px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+  When the lightbox container is given the 'display' class,
+  it changes to a flexbox container, making it appear on the screen.
+*/
+#lightboxContainer.display {
+  display: flex;
+}
+
+/*
+  This CSS adds a somewhat transparent radial gradient background which fills
+  the whole container, and is set at the lowest z-index (at the back).
+*/
+#lightboxBackground {
+  background: radial-gradient(rgba(0,0,0,0.5), black);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/*
+  This CSS creates a bold X to act as a closer button for the lightbox,
+  and positions it at the top right of the screen.
+*/
+#lightboxCloser {
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  z-index: 10;
+}
+
+/*
+  This CSS gives the lightbox image a thick white border, and configures its
+  size based on the height of the container; however, we also ensure that its
+  width will not grow past the bounds of the container. And to ensure that the
+  image maintains its aspect ratio, we also set object-fit to 'contain'.
+  Finally, we also set position and z-index to make sure it renders on top
+  of the lightbox background, but below the lightbox closer (X)
+*/
+#lightbox {
+  background-color: white;
+  border: 24px solid white;
+  width: auto;
+  max-width: 100%;
+  height: 80%;
+  object-fit: contain;
+  position: relative;
+  z-index: 5;
+}
+
+/*
+  When the screen width goes below 800px, we reconfigure our lightbox to be
+  more mobile friendly, by reducing the padding on the container, and also
+  configuring the size to be dependent on the width instead of the height.
+*/
+@media screen and (max-width: 800px) {
+  #lightboxContainer {
+    padding: 12px;
+  }
+  #lightbox {
+    border: 12px solid white;
+    width: 80%;
+    height: auto;
+  }
+}
