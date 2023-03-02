@@ -2,8 +2,8 @@
 
 let answer = document.getElementById("answer");
 
-function twentySevenPlusThirtyEight() {
-    answer.innerHTML = 27 + 38;
+function twentyPlusThirty() {
+    answer.innerHTML = 20 + 30;
 }
 
 function eightySevenTimesEight() {
