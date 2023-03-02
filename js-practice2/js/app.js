@@ -10,4 +10,9 @@ btn.addEventListener("click", displayDate);
 
 // document.getElementById("demo").color.green;
 
-innerHTML.document.getElementById("demo", color.blue);
+// innerHTML.document.getElementById("demo", );
+
+// function getElementById() {
+    
+
+// }
