@@ -29,7 +29,7 @@
 #lightboxContainer.display {
   display: flex;
 }
-
+ 
 /*
   This CSS adds a somewhat transparent radial gradient background which fills
   the whole container, and is set at the lowest z-index (at the back).

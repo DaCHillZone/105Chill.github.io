@@ -26,7 +26,7 @@
   opacity: 0.8;
   transition: opacity 0.25s, transform 0.25s;
 }
-
+ 
 /*
   On hover, make the image completely opaque, change the cursor to a pointer,
   and increase the size of the image slightly.
