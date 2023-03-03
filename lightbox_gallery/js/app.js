@@ -7,3 +7,16 @@ function openLightbox() {
     lightboxContainer.classList.add("display");
     lightbox.src = this.src;
 }
+
+// image varable
+let coffeeImage = document.getElementById("coffeeImage");
+
+coffeeImage.onclick = openLightbox;
+
+function closeLightbox() {
+    lightboxContainer.classList.remove("display");
+    lightbox.src = "";
+}
+
+lightboxBackground.onclick = closeLightbox;
+lightboxCloser.onclick = closeLightbox;
