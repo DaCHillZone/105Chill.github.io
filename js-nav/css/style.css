@@ -1,0 +1,56 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: crimson;
+    padding: 10px;
+    display:flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color:crimson;
+}
+
+header h1 {
+    -webkit-text-stroke: 3px  rgb(201, 16, 53);
+    transition: 1s;
+    transition-property: -webkit-text-stroke;
+    cursor:pointer;
+}
+
+header h1:hover {
+    -webkit-text-stroke: 3px  black;
+}
+
+ 
+nav {
+    background-color:crimson;
+    background-image: linear-gradient(to bottom, crimson, rgb(187, 25, 57));
+    height:100px;
+    display:flex;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top:0px;
+}
+
+main {
+    padding: 40px;
+}
+footer {
+    height: 120px;
+    background-color:crimson;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+
+nav ul {
+    margin:0;
+    padding-left: 0;
+    list-style-type: none;
+}
