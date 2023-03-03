@@ -1,1 +1,4 @@
- 
+  
+  function toggleClass() {
+    const  = document
+  }

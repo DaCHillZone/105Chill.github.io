@@ -17,7 +17,7 @@
 
 // }
 
-
+ 
 function toggleClass() {
    const demo = document.getElementById("demo");
    demo.classList.toggle("blue-div");
