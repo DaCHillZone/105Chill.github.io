@@ -1,12 +1,12 @@
- function displayDate() {
-    let demo = document.getElementById("demo");
+//  function displayDate() {
+//     let demo = document.getElementById("demo");
 
-    demo.innerHTML = Date();
- }
+//     demo.innerHTML = Date();
+//  }
 
-let btn = document.getElementById("btn");
+// let btn = document.getElementById("btn");
 
-btn.addEventListener("click", displayDate);
+// btn.addEventListener("click", displayDate);
 
 // document.getElementById("demo").color.green;
 
@@ -16,3 +16,9 @@ btn.addEventListener("click", displayDate);
     
 
 // }
+
+
+function toggleClass() {
+   const demo = document.getElementById("demo");
+   demo.classList.toggle("blue-div");
+}
