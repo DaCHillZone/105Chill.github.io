@@ -10,8 +10,18 @@ function openLightbox() {
 
 // image varable
 let coffeeImage = document.getElementById("coffeeImage");
-
 coffeeImage.onclick = openLightbox;
+
+let coffeeImage2 = document.getElementById("coffeeImage2");
+coffeeImage2.onclick = openLightbox;
+
+
+let coffeeImage3 = document.getElementById("coffeeImage3");
+coffeeImage3.onclick = openLightbox;
+
+let coffeeImage4 = document.getElementById("coffeeImage4");
+coffeeImage4.onclick = openLightbox;
+
 
 function closeLightbox() {
     lightboxContainer.classList.remove("display");
