@@ -32,7 +32,7 @@ for(let i = 0; i < galleryImages.length; i++) {
     galleryImage.onclick = openLightbox; 
 } 
 
-
+ 
 
 // close
 function closeLightbox() {

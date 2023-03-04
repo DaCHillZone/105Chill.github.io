@@ -9,14 +9,14 @@ nav a{
     margin-left: 15px;
     color:white;
 }
-
+ 
 .navbar li {
     margin-right: 10px;
     font-weight:bold;
     transition: 0.15s ease;
     transition-property: color;
 }
-
+ 
 .navbar li:hover {
     color:black;
 }

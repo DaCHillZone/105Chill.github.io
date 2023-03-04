@@ -13,7 +13,7 @@ header {
     font-size: 4em;
     color:crimson;
 }
-
+ 
 header h1 {
     -webkit-text-stroke: 3px  rgb(201, 16, 53);
     transition: 1s;
