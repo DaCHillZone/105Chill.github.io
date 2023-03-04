@@ -10,7 +10,7 @@
   max-width: 100%;
   margin: 0 auto;
 }
-
+ 
 /*
   Configure the gallery images to be sized based on height,
   flex to fill the available space, and set object-fit to 'cover'

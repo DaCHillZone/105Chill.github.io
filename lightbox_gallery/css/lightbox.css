@@ -5,7 +5,7 @@
 * {
   box-sizing: border-box;
 }
-
+ 
 /*
   This CSS stretches the lightbox container to fill the screen,
   and centers the lightbox inside (at least when display: flex is set).
