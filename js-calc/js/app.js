@@ -14,7 +14,7 @@ function twentyFiveDivideByOnehundred() {
     answer.innerHTML = 25 / 100;
 }
 
-
+ 
 
 function multiplyTwoNumbers() {
     let firstNumber = document.getElementById("FirstNumber");
