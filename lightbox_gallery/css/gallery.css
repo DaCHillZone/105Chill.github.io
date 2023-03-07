@@ -58,3 +58,26 @@
   width:150px;
   height:auto;
 }
+
+body {
+  background-color: darkolivegreen;
+}
+
+.sign-up {
+  height:50px;
+  width:100px;
+  padding:12px;
+  margin:12px;
+}
+
+.footer0 {
+  margin:5px;
+  display:flex;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  padding:5px;
+}
+
+#title {
+  margin-right: 10px;
+}
