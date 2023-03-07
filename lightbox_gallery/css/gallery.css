@@ -47,3 +47,14 @@
     width: 100%;
   }
 }
+
+
+.centerMe {
+  display:flex;
+  justify-content: center;
+}
+
+.logo {
+  width:150px;
+  height:auto;
+}
