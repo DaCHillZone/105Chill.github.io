@@ -3,22 +3,42 @@ margin:0px;
 background-color: aliceblue;
 }
 
-header {
-background-image: url("nexflix-img-copy.jpg");
-background-color: beige;
+.top-page {
+background-image: url("../assets/images/nexflix-img\ copy.jpeg");
+height:300px;
+
 }
 
 nav {
-    background-color: black;
+    /* background-color: black; */
     display: flex;
-    margin: 4px;
+    align-items: center;
+    justify-content:space-around;
+}
 
+#sign-in {
+    justify-content: end;
+    align-items: center;
+    display: flex;
+}
+
+#language {
+    display: flex;
+    align-self:center;
+}
+
+
+
+button {
+    color: white;
+    background-color: crimson;
 }
 
 section {
     justify-content: center;
     padding: 5px;
-    
+    display: flex;
+    color: white;
 }
 
 main {
@@ -32,5 +52,7 @@ background-color: beige;
 #logo1 {
     width:100px;
     height:auto;
+    align-self: flex-start;
+    display: flex;
 }
 
