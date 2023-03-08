@@ -1,0 +1,36 @@
+body {
+margin:0px;
+background-color: aliceblue;
+}
+
+header {
+background-image: url("nexflix-img-copy.jpg");
+background-color: beige;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    margin: 4px;
+
+}
+
+section {
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+main {
+margin:0px;
+}
+
+footer {
+background-color: beige;
+}
+
+#logo1 {
+    width:100px;
+    height:auto;
+}
+
