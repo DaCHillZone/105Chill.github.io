@@ -5,26 +5,28 @@ background-color: aliceblue;
 
 .top-page {
 background-image: url("../assets/images/nexflix-img\ copy.jpeg");
-height:300px;
-
+height:800px;
+width:auto;
 }
 
 nav {
     /* background-color: black; */
     display: flex;
-    align-items: center;
-    justify-content:space-around;
+    
+    
 }
-
+ 
 #sign-in {
     justify-content: end;
     align-items: center;
     display: flex;
+    margin: 50px;
+    justify-content: end;
 }
 
 #language {
     display: flex;
-    align-self:center;
+    margin: 50px;
 }
 
 
@@ -54,5 +56,6 @@ background-color: beige;
     height:auto;
     align-self: flex-start;
     display: flex;
+    margin: 50px;
 }
 
