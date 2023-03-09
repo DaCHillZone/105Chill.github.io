@@ -12,7 +12,7 @@ width:auto;
 nav {
     /* background-color: black; */
     display: flex;
-    
+    justify-content: flex-end;
     
 }
  
@@ -56,10 +56,9 @@ background-color: beige;
 }
 
 #logo1 {
-    width:100px;
+    
     height:auto;
-    align-self: flex-start;
-    display: flex;
-    margin: 50px;
+    
+    margin-right: auto;
 }
 
