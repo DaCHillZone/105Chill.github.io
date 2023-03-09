@@ -1,5 +1,5 @@
-gsap.from("chucked",{
-    property: value,
-    property: value,
-    property: value
+gsap.from(".chucked",{
+    duration: 5,
+    ease: "bounce",
+    rotation: 720
 });
