@@ -1,0 +1,31 @@
+body {
+    background-color: cornsilk;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.animation-container {
+    width:85%;
+    margin:10% auto;
+    display:flex;
+}
+
+.column {
+    width:20%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chucked {
+    width:100px;
+    height:100px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.text-box {
+    width:
+}
