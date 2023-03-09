@@ -27,5 +27,9 @@ body {
 }
 
 .text-box {
-    width:
+    width: 70%;
+}
+
+.text-box h2 {
+    font-size:xx-large;
 }
