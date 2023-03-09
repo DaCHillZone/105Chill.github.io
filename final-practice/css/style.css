@@ -17,16 +17,18 @@ nav {
 }
  
 #sign-in {
-    justify-content: end;
-    align-items: center;
-    display: flex;
     margin: 50px;
-    justify-content: end;
+    
 }
 
 #language {
-    display: flex;
+    
     margin: 50px;
+}
+
+#email {
+    margin:0px;
+    
 }
 
 
@@ -38,9 +40,11 @@ button {
 
 section {
     justify-content: center;
-    padding: 5px;
-    display: flex;
+    padding: 100px;
+    
+    text-align: center;
     color: white;
+   align-items: center;
 }
 
 main {
