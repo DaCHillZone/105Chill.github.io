@@ -4,12 +4,12 @@ background-color: black;
 }
 
 .top-page {
-background-image: url("../assets/images/nexflix-img\ copy.jpeg");
+background: linear-gradient(black, transparent, black 99%), url("../assets/images/nexflix-img\ copy.jpeg");
 
 height:800px;
 width:auto;
 
-}
+} 
 
 nav {
     /* background-color: black; */
