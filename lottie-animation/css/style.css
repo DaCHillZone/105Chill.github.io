@@ -1,1 +1,13 @@
  
+ #animatedMonster {
+    width:1200px;
+ }
+
+ .container {
+    display:flex;
+    justify-content: center;
+ }
+
+ body {
+    background-color: black;
+ }
