@@ -21,7 +21,7 @@ nav {
     margin: 50px;
     
 }
-
+ 
 #language {
     
     margin: 50px;
@@ -57,9 +57,9 @@ background-color: beige;
 }
 
 #logo1 {
-    
+    width:100px;
     height:auto;
-    
+    padding:15px;
     margin-right: auto;
 }
 
