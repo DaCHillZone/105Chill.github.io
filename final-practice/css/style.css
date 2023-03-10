@@ -1,10 +1,11 @@
 body {
 margin:0px;
-background-color: aliceblue;
+background-color: black;
 }
 
 .top-page {
 background-image: url("../assets/images/nexflix-img\ copy.jpeg");
+
 height:800px;
 width:auto;
 
@@ -74,22 +75,25 @@ background-color: beige;
 .item {
     padding: 18px;
     list-style: none;
+    color: aliceblue;
     font-size: xx-large;
 }
 
 .img-grid {
 margin:0px;
-
+display:flex;
+background-color: black;
+color: black;
 }
 
 .img-0 {
-    width:100%;
-    height:450px;
+    width:500px;
+    height:750px;
 }
 
 .row {
     display:flex;
-    justify-items: center;
+    justify-content: center;
 }
 
 .col {
