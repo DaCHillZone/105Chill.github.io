@@ -1,15 +1,21 @@
+/* Base Body */
 body {
 margin:0px;
 background-color: black;
 }
 
+/* top page */
+
+/* linear-gradient(black, transparent, black 99%), */
 .top-page {
-background: linear-gradient(black, transparent, black 99%), url("../assets/images/nexflix-img\ copy.jpeg");
+background:  url("../assets/FinalEvalAssets/background.jpeg");
 
 height:800px;
 width:auto;
 
 } 
+
+/* NAVAGATION BAR */
 
 nav {
     /* background-color: black; */
@@ -23,17 +29,10 @@ nav {
     
 }
  
-#language {
-    
-    margin: 50px;
-}
-
 #email {
     margin:0px;
     
 }
-
-
 
 button {
     color: white;
@@ -48,16 +47,15 @@ section {
     color: white;
    align-items: center;
 }
-
+/* Main parts */
 main {
 margin:0px;
 }
 
-footer {
-background-color: beige;
-}
 
-#logo1 {
+
+
+.logo1 {
     width:100px;
     height:auto;
     padding:15px;
@@ -99,5 +97,17 @@ color: black;
 .col {
     align-items: center; 
     
+}
+
+
+/* FOOTER */
+
+footer {
+background-color: rgb(254, 254, 254);
+}
+
+#language {
+    
+    margin: 50px;
 }
 
