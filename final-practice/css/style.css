@@ -63,3 +63,37 @@ background-color: beige;
     margin-right: auto;
 }
 
+.list {
+    display:flex;
+    justify-content: center;
+    margin:10px;
+    padding:10px;
+
+}
+
+.item {
+    padding: 18px;
+    list-style: none;
+    font-size: xx-large;
+}
+
+.img-grid {
+margin:0px;
+
+}
+
+.img-0 {
+    width:100%;
+    height:450px;
+}
+
+.row {
+    display:flex;
+    justify-items: center;
+}
+
+.col {
+    align-items: center; 
+    
+}
+
