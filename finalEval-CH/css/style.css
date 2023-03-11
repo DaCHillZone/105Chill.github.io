@@ -107,11 +107,14 @@ margin:0px;
 display:flex;
 background-color: black;
 color: black;
+width:100vh;
+height:100%;
 }
 
 .img-0 {
     width:500px;
-    height:750px;
+    height:600px;
+    margin:30px;
 }
 
 .row {
