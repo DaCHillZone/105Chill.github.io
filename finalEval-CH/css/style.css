@@ -10,7 +10,7 @@ background-color: black;
 .top-page {
 background:  url("../assets/FinalEvalAssets/background.jpeg");
 
-height:800px;
+height:fit-content;
 width:auto;
 
 } 
@@ -19,7 +19,7 @@ width:auto;
     width:500px;
     height:auto;
 }
-
+ 
 #disney-bundle {
     height:40px;
 }
@@ -36,16 +36,19 @@ width:auto;
 }
 /* NAVAGATION BAR */
 
-nav {
+#nav {
     /* background-color: black; */
     display: flex;
     justify-content: flex-end;
     
 }
   
-#sign-in {
+.sign-in {
     margin: 50px;
-    width:60px;
+    width:100px;
+    height:90px;
+    max-width: 100px;
+    max-height: 50px;
 }
  
 #email {
@@ -113,7 +116,7 @@ height:100%;
 
 .img-0 {
     width:500px;
-    height:600px;
+    height:490px;
     margin:30px;
 }
 
@@ -135,8 +138,18 @@ background-color: rgb(254, 254, 254);
 display:flex;
 }
 
+/* foot container */
+
+.foot-box {
+    display:flex;
+    justify-content: center;
+}
+
 #language {
     
     margin: 50px;
 }
 
+a {
+    color: white;
+}
