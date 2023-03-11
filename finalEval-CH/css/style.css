@@ -15,6 +15,25 @@ width:auto;
 
 } 
 
+.logo {
+    width:500px;
+    height:auto;
+}
+
+#disney-bundle {
+    height:40px;
+}
+
+.email {
+    display:flex;
+    justify-content: center;
+}
+
+.href {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: underline;
+}
 /* NAVAGATION BAR */
 
 nav {
@@ -26,7 +45,7 @@ nav {
   
 #sign-in {
     margin: 50px;
-    
+    width:60px;
 }
  
 #email {
@@ -36,7 +55,13 @@ nav {
 
 button {
     color: white;
-    background-color: crimson;
+    background-color: black;
+    
+}
+
+.button {
+    color:white;
+    background-color: blue;
 }
 
 section {
@@ -104,6 +129,7 @@ color: black;
 
 footer {
 background-color: rgb(254, 254, 254);
+display:flex;
 }
 
 #language {
