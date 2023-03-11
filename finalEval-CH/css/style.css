@@ -43,7 +43,7 @@ width:auto;
 }
 /* NAVAGATION BAR */
 
-#nav {
+.nav {
     /* background-color: black; */
     display: flex;
     justify-content: flex-end;
@@ -68,7 +68,7 @@ width:auto;
     font-size: large; 
     background-color: rgb(0, 119, 255);
 }
-
+ 
  
 #email {
     margin:0px;
